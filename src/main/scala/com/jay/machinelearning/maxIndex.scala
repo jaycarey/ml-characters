@@ -1,7 +1,9 @@
+package com.jay.machinelearning
+
 
 import breeze.generic.UFunc
 import breeze.macros.expand
-import breeze.linalg.support.{CanTransformValues, CanMapValues, CanTraverseValues}
+import breeze.linalg.support.CanTraverseValues
 import breeze.linalg.support.CanTraverseValues.ValuesVisitor
 
 object maxIndex extends UFunc {
